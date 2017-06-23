@@ -26,7 +26,7 @@ function start() {
     }
   }
   
-  http.createServer(onRequest).listen(9000);
+  http.createServer(onRequest).listen(63345);
 
   console.log("Uruchomiono serwer!".green);
 }
